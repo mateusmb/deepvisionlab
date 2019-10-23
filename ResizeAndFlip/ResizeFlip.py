@@ -8,7 +8,7 @@ parser = argparse.ArgumentParser()
 
 # Defines the argument --image and -i for setting image path. Default is 
 # tokyo.jpg which is included in this repository
-parser.add_argument('--path', '-p', default='tokyo.jpg', help='Image path.')
+parser.add_argument('--path', '-p', default='../res/tokyo.jpg', help='Image path.')
 params = parser.parse_args()
 
 # Read image from path in a NumPy array
