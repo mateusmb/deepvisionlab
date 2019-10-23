@@ -27,4 +27,4 @@ assert saved_image.all() == image.all()
 
 # Save image with lower quality
 # Smaller file size
-cv2.imwrite('tokyo-compressed.jpg', image, [cv2.IMWRITE_JPEG_QUALITY, 0])
+cv2.imwrite('tokyo-compressed.jpg', image, [cv2.IMWRITE_JPEG_QUALITY, 50])
