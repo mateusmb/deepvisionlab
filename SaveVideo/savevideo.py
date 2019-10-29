@@ -1,3 +1,5 @@
+# Source from Alexey Spizhevoy and Aleksandr Rybnikov OpenCV 3 Computer Vision with Python Cookbook
+
 import cv2
 
 # Create a camera capture
